@@ -1,0 +1,20 @@
+{
+  "name": "meantodos",
+  "description": "Simple todos app",
+  "main": "server.js",
+  "authors": [
+    "Sergio Asenjo"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sergiasenjo/Mean-Todos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
