@@ -28,7 +28,7 @@ router.get('/todo/:id', function(req, res, next) {
 });
 
 // Save Todo
-router.post('/todo', function() {
+router.post('/todo', function(req, res, next) {
     var todo = req.body;
     if(!todo.text || !(todo.isCompleted + '')) {
         res.status(400);
@@ -47,7 +47,7 @@ router.post('/todo', function() {
 });
 
 // Update Todo
-router.put('/todo/:id', function() {
+router.put('/todo/:id', function(req, res, next) {
     var todo = req.body;
     var updObj = {};
 
